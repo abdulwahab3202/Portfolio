@@ -1,0 +1,109 @@
+#project {
+    color: white;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    background: linear-gradient(180deg, aqua, #fd0076);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project h4 {
+    font-weight: normal;
+}
+
+.project-container {
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.h4 {
+    font-weight: 400;
+}
+
+.project-name {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+.github-button {
+    width: 90px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.github-button:hover {
+    background-color: #2a2a2a;
+}
+
+@media(max-width:768px) {
+    #project {
+        width: 80%;
+    }
+    .project-title{
+        font-size: 2rem;
+    }
+    .project-container {
+        font-size: 15px;
+    }
+
+    .flex {
+        gap: 7px;
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+    .github-button{
+        width: 80px;
+    }
+}
+@media(max-width:540px){
+    #project {
+        width: 90%;
+    }
+
+    .project-container {
+        font-size: 13px;
+    }
+
+    .flex {
+        gap: 5px;
+        padding: 4px 6px;
+        border-radius: 15px;
+    }
+    .github-button{
+        width: 70px;
+    }
+}
+@media(max-width:300px) {
+    .project-name{
+        font-size: 1.2rem;
+    }
+}
