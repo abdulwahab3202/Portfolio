@@ -37,7 +37,37 @@ const Project = () => {
                         <a href="https://github.com/abdulwahab3202/ArabSpice" target='blank' className='github-button'>Github <FaGithub size={20} color='white' /></a>
                     </div>
                 </div>
-                
+            </div>
+            <div className="project-container">
+                <div className="left">
+                    <h3 className='project-name'>Student Database</h3>
+                    <h4 className='h4'>This Student Management System provides secure registration, login, and token-based authentication.</h4>
+                    <h4 className='h4'>-This contains various operations like Create, Read, Update and Delete Students.</h4>
+                    <h4 className='h4'>-Role-based access is implemented where USERS can only view student data, while ADMINS have full CRUD capabilities.</h4>
+                    <h4 className='h4'>-After login, the token is fetched and stored for secure API calls, and users are redirected to the home page.</h4>
+                    <div className="right"><img src={assets.project5} alt="project 5 image" /></div>
+                    <div className="tech-stack">
+                        <div className="flex">
+                            <img src={assets.html} alt="react image" className='image' />
+                            <span>HTML</span>
+                        </div>
+                        <div className="flex">
+                            <img src={assets.css} alt="node image" className='image' />
+                            <span>CSS</span>
+                        </div>
+                        <div className="flex">
+                            <img src={assets.react} alt="react image" className='image' />
+                            <span>React</span>
+                        </div>
+                        <div className="flex">
+                            <img src={assets.springboot} alt="springboot image" className='image' />
+                            <span>SpringBoot</span>
+                        </div>
+                    </div>
+                    <div className="github-btn">
+                        <a href="https://github.com/abdulwahab3202/StudentCRUD" target='blank' className='github-button'>Github <FaGithub size={20} color='white' /></a>
+                    </div>
+                </div>
             </div>
             <div className="project-container">
                 <div className="left">

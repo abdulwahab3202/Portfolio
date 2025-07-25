@@ -113,6 +113,10 @@ const AboutUs = () => {
                                 <span>Python</span>
                             </div>
                             <div className="flex">
+                                <img src={assets.springboot} alt="springboot image" className='image'/>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div className="flex">
                                 <img src={assets.sql} alt="sql image" className='image'/>
                                 <span>SQL</span>
                             </div>
