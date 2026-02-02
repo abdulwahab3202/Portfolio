@@ -68,13 +68,15 @@ const Contact = () => {
       >
         <div className="flex flex-wrap gap-5 justify-between mb-8">
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=abdulwahab142006@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:abdulwahab142006@gmail.com?subject=Portfolio%20Contact"
             className="flex-1 flex items-center justify-center gap-3 py-3 px-5 border border-gray-600 rounded-lg hover:bg-slate-800 transition-colors text-gray-300 hover:text-white hover:border-cyan-500"
           >
-            <FaEnvelope className="text-cyan-400" /> <span className="text-sm md:text-base">abdulwahab142006@gmail.com</span>
+            <FaEnvelope className="text-cyan-400" />
+            <span className="text-sm md:text-base">
+              abdulwahab142006@gmail.com
+            </span>
           </a>
+
 
           <a
             href="https://wa.me/918838070934"
